@@ -1,0 +1,26 @@
+site_name: maggot tech docs
+
+repo_name: view on github
+repo_url: https://github.com/derrysmith/maggot-docs
+
+theme:
+  name: material
+  icon:
+    logo: material/file-multiple-outline
+  palette:
+    scheme: default
+    primary: blue grey
+    accent: blue
+
+nav:
+  - Overview: index.md
+  - Architecture: architecture.md
+  - Client Applications:
+    - client-app: client-app.md
+    - client-web: client-web.md
+  - Server Applications:
+    - server-api: server-api.md
+    - server-app: server-app.md
+  - Shared Components:
+    - shared-lib: shared-lib.md
+    - shared-pkg: shared-pkg.md

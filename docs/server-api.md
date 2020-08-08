@@ -1,0 +1,1 @@
+# maggot GraphQL API
