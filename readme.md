@@ -3,9 +3,19 @@
 ```
 /-- derrysmith/maggot
 	/-- client-app
+		/-- src
+		|-- client-app.dockerfile
 	/-- client-web
+		/-- src
+		|-- client-web.dockerfile
 	
 	/-- micros-api-identity
+		/-- src
+			/-- main
+				/-- Maggot.Micros.Api.Identity.Application
+				/-- Maggot.Micros.Api.Identity.Domain
+				/-- Maggot.Micros.Api.Identity.Infrastructure
+			/-- test
 	/-- micros-api-importer
 
 	/-- server-api
